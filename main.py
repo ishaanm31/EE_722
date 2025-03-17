@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 import scipy as sp
 
-buyers = pd.read_csv('buyers.csv') # (node, id, marginal cost, quantity)
-sellers = pd.read_csv('sellers.csv') # (node, id, marginal cost, quantity)
-network = pd.read_csv('network.csv') # (from node, to node, reactance, capacity)  
+buyers = pd.read_csv('buyers1.csv') # (node, id, marginal cost, quantity)
+sellers = pd.read_csv('sellers1.csv') # (node, id, marginal cost, quantity)
+network = pd.read_csv('network1.csv') # (from node, to node, reactance, capacity)  
 
 def incidence_matrix(network, nodes):
     # Initialize the incidence matrix A (L × N)
