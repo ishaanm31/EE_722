@@ -1,4 +1,4 @@
-node,id,marginal cost,quantity
-1,101,50,500
-2,102,45,600
-3,103,55,400
+Node,ID,Marginal Cost,Quantity
+1,A,1000,50
+2,B,1000,60
+3,C,1000,300
