@@ -1,0 +1,4 @@
+from node,to node,reactance,capacity
+1,2,0.01,800
+2,3,0.02,800
+3,1,0.015,800
